@@ -1,0 +1,67 @@
+/* Name- Rupam Anthony Roy
+ID- 2120554  */
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+}
+
+ /* For the navigation bar  */
+ nav ul {
+    list-style-type: none;
+    background-color: rgba(240, 204, 158, 0.644);
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 20;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 26;
+    font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+}
+
+nav ul li a:hover {
+    color: #000000; 
+}
+
+nav ul input[type=text]  {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-bottom: 10px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+
+h1 {
+    background-color: rgba(0, 255, 229, 0.395);
+    padding: 10px;
+    border-radius: 5px;
+    font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+}
+
+h3{
+    background-color: burlywood;
+    padding: 8px;
+    font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.yo{
+    background-color: rgba(255, 235, 205, 0.64);
+    color: rgb(2, 2, 2);
+    margin: 20px;
+    padding: 8px;
+}
